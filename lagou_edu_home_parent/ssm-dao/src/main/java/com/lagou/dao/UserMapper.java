@@ -53,6 +53,8 @@ public interface UserMapper {
      */
     public List<Resource> findResourceByRoleId(ArrayList<Object> ids);
 
+    
+   public List<Resource> findResourceByRoleId2(ArrayList<Object> ids);
 
 
 
